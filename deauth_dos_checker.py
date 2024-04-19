@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 
 
-'''
-this tool will help you to detect any Deauth attacks 
-By analyzing the output packet count, you can detect whether it falls under the DoS attack
-or normal behavior
-
-'''
-
 from scapy.all import *
 from scapy.layers import Dot11
 
